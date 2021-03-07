@@ -1,0 +1,96 @@
+*{
+    font-family: 'Fredoka One', cursive;
+}
+body{
+    background-image: url(../img/Body.jpg);  
+}
+html{
+    scroll-behavior: smooth;
+}
+.title{
+    border: 1px solid #2a2b2f;
+    box-shadow:  0px 15px 15px #2a2b2f;
+    position: relative;
+    display: inline-block;
+    padding: 24px 72px;
+    margin: 10px 0;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #2c9fad,#156772);
+    overflow:hidden;
+}
+.grid{     
+    background: #2a2b2f;
+    width: 40%; 
+    border-radius: 30px;
+    box-shadow: 
+    inset 10px 10px 5px rgba(0,0,0,0.2),
+    inset -10px -10px 15px rgba(255,255,255,0.1),
+    5px 5px 15px rgba(0,0,0,0.3),
+    -5px -5px 15px rgba(255,255,255,0.1);
+    padding: 20px;  
+    display: grid;
+    grid-template-columns: 280px 280px;
+}
+.links{
+    text-decoration-line: white;
+    list-style-image: url("../img/seta.png");
+    color:white;
+    text-align: left;
+}
+.imagem{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px white;
+    margin-right: 50px;
+}
+h2{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.item{
+    color:white;
+    text-align: justify;
+    background: #2a2b2f;
+    padding: 20px;
+    box-shadow: 5px 5px 5px white;
+    border-radius: 30px;
+    width: 70%;
+    border-left: 6px solid #2c9fad
+}
+.item:hover{
+    border-left: 6px solid #47484d;
+    transition: 0.8s;
+}
+#guerra{
+    height: 268px;
+    width: 866;
+    box-shadow:2px 2px 2px white;
+    border-radius: 4px;
+}
+.link2{
+    color: #156772;
+}
+.back1{
+    position: absolute;
+    right: 190px;
+}
+.back1, .back{
+    text-align: left;
+    background: #156772;
+    padding:15px;
+    color:white;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.back1:hover{
+    background: white;
+    color:#2c9fad;
+    transition: 0.5s;
+}
+footer{
+    padding: 30px;
+}
